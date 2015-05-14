@@ -1,12 +1,12 @@
 <?php
-${_INIT_CONFIG}[_CLASS] = '_PMVC_View_Html';
+namespace PMVC\PlugIn\View;
+${_INIT_CONFIG}[_CLASS] = 'PMVC\PlugIn\View\Html';
 
-PMVC\initPlugIn(array(
+\PMVC\initPlugIn(array(
     'view'=>null
-    ,'static'=>null
 ));
 
-class _PMVC_View_Html extends _PMVC_BASE_VIEW
+class Html extends VIEW
 {
 
     function process()
