@@ -3,7 +3,7 @@
     "description": "PMVC official view engine",
     "type": "library",
     "homepage": "https://github.com/pmvc-plugin/view-html",
-    "keywords": ['html', "template", "view", "pmvc", "plug", "plug-in"],
+    "keywords": ["html", "template", "view", "pmvc", "plug", "plug-in"],
     "license": "MIT",
     "authors": [
         {

@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "pmvc-theme/hello-theme": "dev-master"
+    }
+}
