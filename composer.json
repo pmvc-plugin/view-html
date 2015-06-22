@@ -1,9 +1,9 @@
 {
-    "name": "pmvc-plugin/view-html",
-    "description": "PMVC official view engine",
+    "name": "pmvc-plugin/view_html",
+    "description": "PMVC view engine for html",
     "type": "library",
-    "homepage": "https://github.com/pmvc-plugin/view-html",
-    "keywords": ["html", "template", "view", "pmvc", "plug", "plug-in"],
+    "homepage": "https://github.com/pmvc-plugin/view_html",
+    "keywords": ["html", "template", "view", "pmvc", "plug-in"],
     "license": "MIT",
     "authors": [
         {
