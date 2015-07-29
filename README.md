@@ -12,7 +12,8 @@
    * mkdir test_folder
    * curl -sS https://getcomposer.org/installer | php
 
-### 2. Edit composer file
+### 2. Install by composer.json or use command-line directly
+#### 2.1 Install by composer.json
    * vim composer.json
 ```
 {
@@ -21,3 +22,8 @@
     }
 }
 ```
+   * php composer.phar install
+
+#### 2.2 Or use composer command-line
+   * php composer.phar require pmvc-plugin/view_html
+
