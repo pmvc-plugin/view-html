@@ -1,9 +1,9 @@
 <?php
-include_once('vendor/pmvc/pmvc/include_plug.php');
-PMVC\setPlugInFolder('vendor/pmvc-plugin/');
-$html = PMVC\plug('view-html');
-$html->setThemeFolder('vendor/pmvc-theme/hello-theme');
+include_once('vendor/autoload.php');
+\PMVC\Load::plug();
+$html = PMVC\plug('view_html');
+$html->setThemeFolder('vendor/pmvc-theme/hello_html');
 $html->setThemePath('hello');
-$html->set('text','hello world');
+$html->set('text','hello world, and all');
 echo $html->process();
 

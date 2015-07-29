@@ -1,5 +1,5 @@
 {
     "require-dev": {
-        "pmvc-theme/hello-theme": "*"
+        "pmvc-theme/hello_html": "*"
     }
 }
