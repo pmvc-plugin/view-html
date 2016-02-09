@@ -8,7 +8,7 @@ class view_html extends ViewEngine
     function process()
     {
         $t = $this->initTemplateHelper($this['themeDir']);
-        $file = $this->getTplFile($this['themePath']);
+        $file = $this->getTplFile($this->get('themePath'));
         include($file);
     }
 
