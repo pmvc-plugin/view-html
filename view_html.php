@@ -5,11 +5,17 @@ ${_INIT_CONFIG}[_CLASS] = __NAMESPACE__.'\view_html';
 class view_html extends ViewEngine 
 {
 
-    function process()
+    private function _load($__f)
+    {
+        include($__f);
+        $this->flush();
+    }
+
+    public function process()
     {
         $t = $this->initTemplateHelper();
         $file = $this->getTplFile($this['themePath']);
-        include($file);
+        $this->_load($file);
     }
 
 }
